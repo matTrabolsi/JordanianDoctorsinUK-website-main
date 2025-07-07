@@ -6,10 +6,31 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "cleanUrls": true,
     "rewrites": [
       {
+        "source": "/members/**",
+        "destination": "/members/index.html"
+      },
+      {
+        "source": "/electives/**",
+        "destination": "/electives/index.html"
+      },
+      {
+        "source": "/conference/**",
+        "destination": "/conference/index.html"
+      },
+      {
+        "source": "/about/**",
+        "destination": "/about/index.html"
+      },
+      {
+        "source": "/news/**",
+        "destination": "/news/index.html"
+      },
+      {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "/404.html"
       }
     ]
   },
