@@ -1,5 +1,9 @@
+
 {
   "dependencies": {
     "flag-icons": "^7.5.0"
+  },
+  "scripts": {
+    "build": "echo 'No build needed'"
   }
 }
